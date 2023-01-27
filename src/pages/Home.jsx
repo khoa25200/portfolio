@@ -18,7 +18,7 @@ const SocialIcon = ({ href, icon }) => {
 };
 
 export default function Home() {
-  const icons = _getProfileApi[0].socialIcons;
+  const icons = _getProfileApi[0]?.socialIcons;
   return (
     <Section id="about">
       <div className="row justify-content-between">
@@ -68,13 +68,14 @@ export default function Home() {
         >
           Download CV
         </button>
-      </div>
-
-      <div className="social-icons">
+        <div className="social-icons">
         {icons.map(({ href, icon }, index) => (
           <SocialIcon href={href} icon={icon} key={index} />
         ))}
       </div>
+      </div>
+
+    
     </Section>
   );
 }

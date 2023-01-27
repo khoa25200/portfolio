@@ -3,29 +3,19 @@ import Section from "../components/Section";
 import Skill from "../components/Skill";
 import Pie3D from "../components/Chart/Pie3D";
 import {
-  SiAndroidstudio,
   SiAngular,
   SiCss3,
-  SiDart,
-  SiDocker,
-  SiElectron,
-  SiFirebase,
-  SiFlask,
-  SiFlutter,
-  SiGit,
   SiGithub,
   SiGitlab,
   SiHtml5,
   SiIntellijidea,
-  SiJava,
   SiJavascript,
   SiJupyter,
   SiKeras,
-  SiKubernetes,
   SiMongodb,
   SiNodeDotJs,
   SiPostgresql,
-  SiPostman,
+  SiGit,
   SiPython,
   SiReact,
   SiTensorflow,
@@ -132,13 +122,7 @@ const Skills = () => {
 
   const iconsSet2 = [
     {
-      icon: <SiJava />,
-    },
-    {
       icon: <SiPython />,
-    },
-    {
-      icon: <SiDart />,
     },
     {
       icon: <SiJavascript />,
@@ -151,13 +135,7 @@ const Skills = () => {
     },
     {
       icon: <SiKeras />,
-    },
-    {
-      icon: <SiFlask />,
-    },
-    {
-      icon: <SiFlutter />,
-    },
+    }
   ];
 
   const iconsSet4 = [
@@ -172,13 +150,7 @@ const Skills = () => {
     },
     {
       icon: <SiAngular />,
-    },
-    {
-      icon: <SiVueDotJs />,
-    },
-    {
-      icon: <SiElectron />,
-    },
+    }
   ];
 
   const iconsSet5 = [
@@ -190,16 +162,8 @@ const Skills = () => {
     },
     {
       icon: <SiPostgresql />,
-    },
-    {
-      icon: <SiFirebase />,
-    },
-    {
-      icon: <SiDocker />,
-    },
-    {
-      icon: <SiKubernetes />,
-    },
+    }
+
   ];
 
   const iconsSet6 = [
@@ -211,16 +175,7 @@ const Skills = () => {
     },
     {
       icon: <SiIntellijidea />,
-    },
-    {
-      icon: <SiAndroidstudio />,
-    },
-    {
-      icon: <SiPostman />,
-    },
-    {
-      icon: <BsTerminalFill />,
-    },
+    }
   ];
 
   return (

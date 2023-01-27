@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import Section from "../components/Section";
 import _getProfileApi from "../api/_getProfileApi";
@@ -11,7 +12,8 @@ export default function Experience() {
           <div key={value?._id} className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h3 className="mb-0">{value?.roleName}</h3>
-              <div className="subheading mb-3">
+              <a className="mb-0 font-weight-bold text-light urlCompany" target="_blank" href={value?.companyUrl}><p className="">{value?.companyName}</p></a>
+              <div className="skills mb-3">
                 {value?.skills}
               </div>
               <p>
