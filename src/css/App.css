@@ -15,6 +15,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #72767c;
   text-transform: uppercase;
 }
+.card-text{
+  color: rgb(27, 27, 27) !important;
+}
 h1, .h1 {
   font-size: 6rem;
 }
