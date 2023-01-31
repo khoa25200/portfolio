@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "../components/Section";
-// import ResumePDF from "../assets/Sagnik Resume.pdf";
+import ResumePDF from "../assets/CV Fresher.pdf";
 import SGCartoon from "../assets/sagnik_cartoon.png";
 import _getProfileApi from "../api/_getProfileApi";
 
@@ -64,7 +64,7 @@ export default function Home() {
         <button
           className="btn btn-primary btn-custom py-2 px-5 CV-Button"
           type="submit"
-          // onClick={() => window.open(ResumePDF)}
+          onClick={() => window.open(ResumePDF)}
         >
           Download CV
         </button>
