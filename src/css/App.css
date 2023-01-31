@@ -17,7 +17,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .card-text{
   color: rgb(27, 27, 27) !important;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
 }
+
 h1, .h1 {
   font-size: 6rem;
 }

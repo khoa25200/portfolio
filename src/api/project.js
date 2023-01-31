@@ -7,7 +7,7 @@ export default [
   {
     img: lunar,
     title: "LUNAR NEW YEAR 2023",
-    desc: "Using Html, Css, Javascript, React",
+    desc: "Using Html, Scss, Javascript, React",
     demo: "https://lunarnewyear2023.vercel.app/",
     source: "https://github.com/khoa25200/lunarnewyear2023",
   },
