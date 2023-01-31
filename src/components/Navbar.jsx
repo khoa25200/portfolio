@@ -88,7 +88,7 @@ export default function Navigation() {
             ))}
           </Nav>
         </Navbar.Collapse>
-        <span className='d-none d-lg-block pb-5'>
+        {/* <span className='d-none d-lg-block pb-5'>
           <div
             className="SunMoon"
             onClick={() => {
@@ -98,7 +98,7 @@ export default function Navigation() {
           >
             <div>{isDarkMode === true ? <CgSun color='#ffc107' size='2rem' /> : <BiMoon color="#007BFF" size='2rem' />}</div>
           </div>
-        </span>
+        </span> */}
       </Navbar>
     </ThemeProvider>
   )
