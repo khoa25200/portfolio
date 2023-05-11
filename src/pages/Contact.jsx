@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { ImLocation } from 'react-icons/im'
 import Section from '../components/Section'
+import ContactButton from './../components/ContactButton/ContactButton';
 
 const Contact = () => {
   const [formData, setFormData] = useState(new FormData())
@@ -120,6 +121,8 @@ const Contact = () => {
       <p className='py-3 m-0 mt-5 text-center text-secondary'>
         Made with ❤ by Dang Khoa
       </p>
+
+      <ContactButton />
     </Section>
   )
 }
