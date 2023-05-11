@@ -12,13 +12,16 @@ export default function Education() {
           <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="flex-grow-1">
               <h3 className="mb-0">{value.name}</h3>
-              <div className="subheading mb-3">
-                {value.major}
-              </div>
-              <div>
-                {value.subjectsRelated}
-              </div>
+              <div className="subheading mb-3">{value.major}</div>
+              <div>{value.subjectsRelated}</div>
               <p>GPA: {value.GPA}</p>
+              {value?.addditionInfor && (
+                <ul>
+                  {value?.addditionInfor.map((inf) => {
+                    return <li>{inf}</li>;
+                  })}
+                </ul>
+              )}
             </div>
             <div className="flex-shrink-0">
               <span className="text-primary">{value.times}</span>

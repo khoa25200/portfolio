@@ -24,6 +24,14 @@ const _getProfileApi = [
         GPA: 3.05,
         addditionInfor: [],
         times: 'July 2019 - Present'
+      },
+      {
+        name: 'MISA JSC',
+        major: 'WEB DEV FULL-STACK',
+        subjectsRelated: 'HTML, CSS, Javascript, C#, ASP.NET, API',
+        GPA: 4,
+        addditionInfor: ['Credential ID 0xce5E8ADC8Cb1Cca9FBe1E5c0f970B5edF07a9996'],
+        times: '2022'
       }
     ],
     experiences: [
