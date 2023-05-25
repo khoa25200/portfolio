@@ -50,7 +50,7 @@ function App() {
           <Experience />
           <Skills />
           <Projects />
-          {/* <Achievements /> */}
+          <Achievements />
           <Contact />
         </div>
 
