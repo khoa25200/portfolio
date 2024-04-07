@@ -20,7 +20,7 @@ export default function Achievements() {
                   <BsTrophy />
                 </i>
               </span>
-              <a onClick={() => window.open(LR)}>TOEIC Reading & Listening 👉 545/990</a>
+              <a onClick={() => window.open(LR)}>TOEIC Reading & Listening 👉 620</a>
             </div>
             <div className="pointer">
               <span className="fa-li p-2">
@@ -28,7 +28,7 @@ export default function Achievements() {
                   <BsTrophy />
                 </i>
               </span>
-              <a onClick={() => window.open(SW)}>TOEIC Speaking & Writing 👉 260/400</a>
+              <a onClick={() => window.open(SW)}>TOEIC Speaking & Writing 👉 260</a>
             </div>
           </li>
           <br />

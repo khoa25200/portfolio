@@ -32,11 +32,32 @@ const _getProfileApi = [
         GPA: 4,
         addditionInfor: ['Credential ID 0xce5E8ADC8Cb1Cca9FBe1E5c0f970B5edF07a9996'],
         times: '2022'
+      },
+      {
+        name: 'UniGap',
+        major: 'Backend Developer',
+        subjectsRelated: 'Java, Spring',
+        GPA: 4,
+        addditionInfor: [],
+        times: '2023-5/2020'
       }
     ],
     experiences: [
       {
         _id: '1',
+        roleName: 'Backend Developer (nodejs)',
+        companyName: 'Finviet',
+        companyUrl: '',
+        skills: 'Javascript, NodeJS, NestJS, Redis, Message Queue, MongoDB, Angular',
+        responsibilities: [
+          'This involves ensuring seamless communication withfront - end systems',
+          'integrating diverse partners like Viettel Post, Titkul tuition',
+          'VinaID tuition, and overseeing functionalities such as VPBank account registration'
+        ],
+        times: 'Aug 2023 - Dec 2023'
+      },
+      {
+        _id: '3',
         roleName: 'Software Engineer - Intern (Frontend, ReactJS)',
         companyName: 'Kyanon Digital - Digital Transformation & Agile Engineering',
         companyUrl: 'https://kyanon.digital/',
@@ -50,7 +71,7 @@ const _getProfileApi = [
         times: 'Oct 2022 - Feb 2023'
       },
       {
-        _id: '2',
+        _id: '4',
         roleName: 'Web Designer - FullTime (Wordpress)',
         companyName: 'BMS Global - Agency Company',
         companyUrl: 'https://bmsglobal.vn/',
@@ -65,7 +86,7 @@ const _getProfileApi = [
         times: 'Jun 2022 - Sep 2022'
       },
       {
-        _id: '3',
+        _id: '5',
         roleName: 'Designer - PartTime',
         companyUrl: '',
         companyName: 'Az-Media Designer - PartTime',
