@@ -32,8 +32,8 @@ export default function Home() {
           <div className="subheading mb-3">
             <span style={{ paddingRight: "0.3vw" }}>No Pain No Gain!</span>
             <span style={{ paddingRight: "0.3vw" }}>·</span>
-            <a href="mailto:ngdakhoa@gmail.com" className="home-mail">
-              ngdakhoa@gmail.com
+            <a href="mailto:dangkhoa2520ss@gmail.com" className="home-mail">
+              dangkhoa2520ss@gmail.com
             </a>
           </div>
         </div>

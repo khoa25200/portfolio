@@ -9,7 +9,7 @@ function ContactButton() {
       <div className="ctaitem">
         <div className="ctabg" style={{ background: "#e67447" }} />
         <div className="ctaimg" style={{ background: "#e67447" }}>
-          <a href="tel:0326123397" target='_blank'>
+          <a href="tel:0559732762" target='_blank'>
             <img width="30px" src={Phone} alt="Gọi điện" />
           </a>
         </div>
@@ -17,7 +17,7 @@ function ContactButton() {
       <div className="ctaitem">
         <div className="ctabg" style={{ background: "#e67447" }} />
         <div className="ctaimg" style={{ background: "#e67447" }}>
-          <a href="https://zalo.me/0326123397" target='_blank'>
+          <a href="https://zalo.me/0559732762" target='_blank'>
             <img width="50px" src={Zalo} alt="Chat Zalo" />
           </a>
         </div>

@@ -3,10 +3,10 @@ import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa"
 const _getProfileApi = [
   {
     socialIcons: [
-      {
-        href: "https://www.linkedin.com/in/khoa2520/",
-        icon: <FaLinkedinIn />,
-      },
+      // {
+      //   href: "https://www.linkedin.com/in/khoa2520/",
+      //   icon: <FaLinkedinIn />,
+      // },
       {
         href: "https://github.com/khoa25200",
         icon: <FaGithub />,
