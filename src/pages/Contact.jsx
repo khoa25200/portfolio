@@ -100,7 +100,7 @@ const Contact = () => {
                   <span>
                     <FaPhoneAlt />
                   </span>
-                  <p>+32 6123 397</p>
+                  <p>+84 32 6123 397</p>
                 </div>
               </div>
             </div>

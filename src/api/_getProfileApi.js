@@ -45,6 +45,19 @@ const _getProfileApi = [
     experiences: [
       {
         _id: '1',
+        roleName: 'Front-end Developer',
+        companyName: 'Doctogo',
+        companyUrl: '',
+        skills: 'Angular, Ionic, React, Javascript, Socket',
+        responsibilities: [
+          'Developed a web system connecting patients and doctors, supporting appointment scheduling and prescription management.',
+          'Integrated RESTful APIs and WebSocket for real-time features.',
+          'Used Angular to deliver modern and optimized user interfaces.'
+        ],
+        times: 'Dec 2023 - Now'
+      },
+      {
+        _id: '2',
         roleName: 'Backend Developer (nodejs)',
         companyName: 'Finviet',
         companyUrl: '',
