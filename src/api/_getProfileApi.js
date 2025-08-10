@@ -44,6 +44,22 @@ const _getProfileApi = [
     ],
     experiences: [
       {
+        _id: '0',
+        roleName: 'Front-end Developer (Angular)',
+        companyName: 'SaiGon Technology',
+        companyUrl: '',
+        skills: 'Angular, Primeng, Material UI',
+        responsibilities: [
+          'Worked with clients to clarify requirements.',
+          'Built reusable, high-performance UI components (React, Angular).',
+          'Wrote clean, maintainable code following modern principles.',
+          'Collaborated with the engineering team on feature integration.',
+          'Utilized open-source tools and external technologies when needed.',
+          'Provided technical guidance and support to colleagues.',
+        ],
+        times: 'Feb 2025 - Now'
+      },
+      {
         _id: '1',
         roleName: 'Front-end Developer',
         companyName: 'Doctogo',
@@ -54,7 +70,7 @@ const _getProfileApi = [
           'Integrated RESTful APIs and WebSocket for real-time features.',
           'Used Angular to deliver modern and optimized user interfaces.'
         ],
-        times: 'Dec 2023 - Now'
+        times: 'Dec 2023 - Feb 2025'
       },
       {
         _id: '2',
